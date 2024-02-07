@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://dream-dormicile-server.vercel.app',
         secure: false,
       },
     },
