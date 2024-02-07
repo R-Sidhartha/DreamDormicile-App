@@ -14,7 +14,7 @@ export default function OAuth() {
 
       const result = await signInWithPopup(auth, provider);
 
-      const res = await fetch("https://dream-dormicile-server.vercel.app/api/auth/google", {
+      const res = await fetch("https://dreamdormicile-server.onrender.com/api/auth/google", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
